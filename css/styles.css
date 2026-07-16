@@ -748,10 +748,24 @@ a.join-button:focus-visible img {
 }
 
 .community-hero {
+  position: relative;
+  overflow: hidden;
   min-height: 180px;
   background:
     linear-gradient(115deg, rgba(212, 231, 208, 0.96) 0%, rgba(244, 231, 194, 0.9) 38%, rgba(255, 171, 182, 0.86) 72%, rgba(91, 32, 112, 0.42) 100%),
     var(--verde-agua);
+}
+
+.community-hero img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 110%;
+  min-height: 198px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .community-page {
@@ -2270,6 +2284,10 @@ a.join-button:focus-visible img {
 
   .community-hero {
     min-height: 260px;
+  }
+
+  .community-hero img {
+    min-height: 286px;
   }
 
   .community-page-inner {
