@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mundo Parkinson</title>
+  <meta
+    name="description"
+    content="Mundo Parkinson: comunidad, propósito y servicios para vivir con Parkinson desde otra mirada."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Reenie+Beanie&family=Roboto:wght@400;500;600;700&family=Roboto+Condensed:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a class="brand" href="index.html" aria-label="Mundo Parkinson, inicio">
+        <img
+          src="assets/logos/logo-mundo-parkinson.png"
+          alt="Mundo Parkinson"
+        >
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a class="active" href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+        <a href="comunidad.html">Comunidad</a>
+        <a href="proposito.html">Propósito</a>
+        <a href="servicios.html">Servicios</a>
+      </nav>
+
+      <div class="header-actions">
+        <a
+          class="button button-header"
+          href="https://wa.me/5491126805409"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ¡Sumate!
+        </a>
+
+        <div class="header-socials" aria-label="Redes sociales">
+          <a
+            href="https://www.instagram.com/mundo.parkinson/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram de Mundo Parkinson"
+          >
+            <img src="assets/icons/instagram.svg" alt="">
+          </a>
+
+          <a
+            href="https://open.spotify.com/show/033FKIcTWqpeho6zZpF9n4?si=5384ccea46114332"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Spotify de Mundo Parkinson"
+          >
+            <img src="assets/icons/spotify.svg" alt="">
+          </a>
+
+          <a
+            href="https://www.youtube.com/@mundo.parkinson"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube de Mundo Parkinson"
+          >
+            <img src="assets/icons/youtube.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+    <nav
+      class="mobile-menu"
+      id="mobile-menu"
+      aria-label="Navegación móvil"
+    >
+      <a class="active" href="index.html">Inicio</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+      <a href="comunidad.html">Comunidad</a>
+      <a href="proposito.html">Propósito</a>
+      <a href="servicios.html">Servicios</a>
+
+      <a
+        class="button button-mobile-whatsapp"
+        href="https://wa.me/5491126805409"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Escribime por WhatsApp
+      </a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          Comunidad global · EN ESPAÑOL
+        </p>
+
+        <h1>
+          Vivir con Parkinson
+          <span>desde otra mirada</span>
+        </h1>
+
+        <p class="hero-description">
+          Una comunidad convocada por Patricia Maldonado, periodista,
+          instructora de yoga y persona con Parkinson, para transformar
+          el diagnóstico en punto de partida.
+        </p>
+
+        <a class="button button-outline" href="#">
+          ¡Sumate!
+        </a>
+
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="assets/images/hero-home.png"
+          alt="Patricia Maldonado en diferentes momentos de su vida"
+        >
+      </div>
+    </section>
+
+
+    <!-- BANDA DE REDES -->
+    <section class="social-strip" aria-label="Redes sociales">
+      <div class="social-strip-inner">
+
+        <p>Seguinos en</p>
+
+        <div class="social-strip-links">
+
+          <a
+            class="social-pill"
+            href="https://www.instagram.com/mundo.parkinson/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets/icons/instagram-violeta.svg" alt="">
+            Instagram
+          </a>
+
+          <a
+            class="social-pill"
+            href="https://open.spotify.com/show/033FKIcTWqpeho6zZpF9n4?si=5384ccea46114332"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets/icons/spotify-violeta.svg" alt="">
+            Spotify
+          </a>
+
+          <a
+            class="social-pill"
+            href="https://www.youtube.com/@mundo.parkinson"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets/icons/youtube-violeta.svg" alt="">
+            YouTube
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- QUIÉN SOY -->
+    <section class="about-home">
+      <div class="section-container about-home-grid">
+
+        <div class="about-home-media">
+          <div class="about-home-carousel">
+            <div class="about-home-slide is-active">
+              <img
+                src="assets/images/patricia-home.png"
+                alt="Composición fotográfica de Patricia Maldonado"
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="about-home-copy">
+
+          <p class="section-label">QUIÉN SOY</p>
+
+          <h2>Patricia Maldonado</h2>
+
+          <p>
+            Periodista, productora audiovisual e instructora de yoga.
+            Tiene Parkinson desde hace 6 años y en vez de frenar, convocó
+            a una comunidad. Hoy conecta a personas con Parkinson de todo
+            el mundo con encuentros, clases y contenido que transforma
+            el diagnóstico.
+          </p>
+
+          <p class="featured-note">
+            Invitada al Congreso Mundial de Parkinson · Phoenix, EEUU 2026.
+          </p>
+
+          <a class="button button-outline" href="sobre-mi.html">
+            Leer más sobre Patricia
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PILARES -->
+    <section class="pillars">
+      <div class="section-container">
+
+        <div class="pillars-heading">
+          <h2>¿Qué es Mundo Parkinson?</h2>
+
+          <p>
+            Un espacio vivo con tres ejes que se retroalimentan
+          </p>
+        </div>
+
+        <div class="pillar-grid">
+
+          <a class="pillar-card" href="comunidad.html">
+            <div class="pillar-card-heading">
+              <img
+                src="assets/icons/comunidad.svg"
+                alt=""
+              >
+              <h3>Comunidad</h3>
+            </div>
+
+            <h4>Todos somos uno</h4>
+
+            <p>
+              Encuentros online con personas y profesionales.
+            </p>
+          </a>
+
+
+          <a class="pillar-card" href="proposito.html">
+            <div class="pillar-card-heading">
+              <img
+                src="assets/icons/proposito.png"
+                alt=""
+              >
+              <h3>Propósito</h3>
+            </div>
+
+            <h4>Soy la arquitecta de mi bienestar</h4>
+
+            <p>
+              Necesidades concretas y causas activas.
+            </p>
+          </a>
+
+
+          <a class="pillar-card" href="servicios.html">
+            <div class="pillar-card-heading">
+              <img
+                class="pillar-icon-wide"
+                src="assets/icons/servicios.svg"
+                alt=""
+              >
+              <h3>Servicios</h3>
+            </div>
+
+            <h4>Elegí tu propia aventura</h4>
+
+            <p>
+              Clases de yoga a distancia para personas con Parkinson,
+              conferencias y más.
+            </p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- MP PODCAST -->
+    <section class="podcast-home">
+      <div class="section-container podcast-home-inner">
+
+        <img
+          class="podcast-logo"
+          src="assets/logos/mp-podcast.png"
+          alt="MP Podcast"
+        >
+
+        <h2>Todos somos Uno</h2>
+
+        <p>
+          Charlas y entrevistas online con personas y profesionales.
+        </p>
+
+        <div class="podcast-actions">
+
+          <a
+            class="media-button button-yellow"
+            href="https://open.spotify.com/show/033FKIcTWqpeho6zZpF9n4?si=5384ccea46114332"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="media-button-icon">
+              <img src="assets/icons/spotify-fluo.svg" alt="">
+            </span>
+            Escuchalos en Spotify
+          </a>
+
+          <a
+            class="media-button button-yellow"
+            href="https://www.youtube.com/@mundo.parkinson"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="media-button-icon">
+              <img src="assets/icons/youtube-fluo.svg" alt="">
+            </span>
+            Miralos en YouTube
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- TRANSICIÓN PODCAST / YOGA -->
+    <div class="podcast-yoga-transition" aria-hidden="true"></div>
+
+
+    <!-- YOGA -->
+    <section class="yoga-home">
+
+      <div class="yoga-home-copy">
+
+        <p class="section-label">SERVICIOS</p>
+
+        <h2>Yoga Dinámico con Patricia</h2>
+
+        <p>
+          Clases de yoga a distancia especialmente diseñadas para
+          personas con Parkinson. Adaptadas, accesibles y cargadas
+          de intención. Desde cualquier lugar del mundo.
+        </p>
+
+        <a class="button button-light" href="servicios.html">
+          Quiero practicar yoga!
+        </a>
+
+      </div>
+
+      <div class="yoga-home-image">
+        <div class="yoga-slideshow" aria-label="Imágenes de Yoga con Patricia">
+          <div class="yoga-slide is-active is-ready">
+            <img
+              src="assets/images/yoga-home.png"
+              alt="Patricia realizando una práctica de yoga"
+            >
+          </div>
+
+          <div class="yoga-slide">
+            <img
+              data-src="assets/images/yoga-home-2.png"
+              alt="Patricia realizando una práctica de yoga"
+            >
+          </div>
+
+          <div class="yoga-slide">
+            <img
+              data-src="assets/images/yoga-home-3.png"
+              alt="Patricia realizando una práctica de yoga"
+            >
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- SERIE -->
+    <section class="series-wrapper">
+
+      <div class="series-transition" aria-hidden="true"></div>
+
+      <article class="series-home">
+
+        <div class="series-poster">
+          <img
+            src="assets/images/poster-serie.png"
+            alt="Póster de la serie Mundo Parkinson"
+          >
+        </div>
+
+        <div class="series-copy">
+
+          <p class="section-label">MP AUDIOVISUAL</p>
+
+          <h2>
+            El proyecto de una Serie Mundo Parkinson
+          </h2>
+
+          <p>
+            Proyecto de 12 episodios de 15 minutos. Una mujer con Parkinson
+            que recorre el mundo buscando respuestas, vínculos, humor y
+            alternativas para transformar el diagnóstico en reinvención.
+          </p>
+
+          <a
+            class="button button-small-outline"
+            href="https://www.youtube.com/watch?v=wwQKUENjy3w&t=10s"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver Tráiler
+          </a>
+
+        </div>
+
+        <div class="series-production">
+
+          <p>Producido por</p>
+
+          <img
+            src="assets/logos/egoland.png"
+            alt="Egoland"
+          >
+
+        </div>
+
+        <div class="series-yellow-edge" aria-hidden="true"></div>
+
+      </article>
+    </section>
+
+
+    <!-- SUMATE -->
+    <section class="join-home">
+      <div class="section-container join-home-inner">
+
+        <h2>Sumate a Mundo Parkinson</h2>
+
+        <p>
+          Si tenés Parkinson, acompañás a alguien que lo tiene,
+          o sos profesional, este es tu espacio.
+        </p>
+
+        <div class="join-actions">
+
+          <a
+            class="join-button join-button-white"
+            href="https://wa.me/5491126805409"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets/icons/whatsapp.svg" alt="">
+            Escribime por WhatsApp
+          </a>
+
+          <a
+            class="join-button"
+            href="https://www.instagram.com/mundo.parkinson/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets/icons/instagram-violeta.svg" alt="">
+            Seguinos en Instagram
+          </a>
+
+          <a
+            class="join-button"
+            href="https://www.youtube.com/@mundo.parkinson"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets/icons/youtube-violeta.svg" alt="">
+            Seguinos en YouTube
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-main">
+      <img
+        class="footer-logo"
+        src="assets/logos/logo-mundo-parkinson.png"
+        alt="Mundo Parkinson"
+      >
+
+      <p>De Argentina para el Mundo</p>
+    </div>
+
+    <div class="footer-team">
+      Equipo que acompaña: Silvina Feraud, Mariano Pujadas, Paula Gigliotti, Virginia Mazzeo, Carola Arceu, Paola Amor, Marcos Ingénito, Pablo Olmedo,
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
