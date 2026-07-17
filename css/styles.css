@@ -1270,6 +1270,27 @@ a.join-button:focus-visible img {
   font-weight: 700;
 }
 
+.about-page-text a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.about-foundation-block {
+  margin-top: 28px;
+}
+
+.about-foundation-block p {
+  margin-bottom: 0;
+}
+
+.about-foundation-block img {
+  width: min(100%, 173px);
+  height: auto;
+  margin: 24px 0 0;
+  object-fit: contain;
+}
+
 .about-page-photo {
   width: 284px;
   max-width: 100%;
