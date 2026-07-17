@@ -1796,6 +1796,22 @@ a.join-button:focus-visible img {
   line-height: 1.66;
 }
 
+.services-pax-credit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 44px;
+  color: var(--negro);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.services-pax-credit img {
+  width: auto;
+  height: 29px;
+  object-fit: contain;
+}
+
 .services-final-cta {
   width: 100%;
   max-width: 100vw;
@@ -1853,6 +1869,51 @@ a.join-button:focus-visible img {
   line-height: 1.15;
 }
 
+.footer-institutions {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 18px;
+  padding: 4px 24px 26px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.82);
+  text-align: center;
+}
+
+.footer-institutions-title {
+  margin: 0;
+  color: var(--blanco);
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.footer-institutions-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+}
+
+.footer-institutions-logos img {
+  width: auto;
+  max-width: 170px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.footer-institutions-logos img[src$="pax-logo-bco.png"] {
+  height: 42px;
+}
+
+.footer-institutions-logos img[src$="apda-logo-bco.svg"] {
+  height: 46px;
+}
+
 .footer-team {
   display: flex;
   align-items: center;
@@ -1860,7 +1921,7 @@ a.join-button:focus-visible img {
   width: 100%;
   min-height: 27px;
   padding: 10px 24px 13px;
-  color: #FFFFFF;
+  color: var(--amarillo-fluo);
   background: var(--violeta-header);
   font-family: "Courier Prime", "Courier New", monospace;
   font-size: 10px;
@@ -1971,6 +2032,18 @@ a.join-button:focus-visible img {
   .services-final-inner {
     padding-right: 40px;
     padding-left: 40px;
+  }
+}
+
+@media (min-width: 700px) {
+  .footer-institutions {
+    grid-template-columns: auto minmax(0, 1fr);
+    justify-items: start;
+    text-align: left;
+  }
+
+  .footer-institutions-logos {
+    justify-self: center;
   }
 }
 
