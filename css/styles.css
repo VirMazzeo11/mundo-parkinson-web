@@ -1608,6 +1608,41 @@ a.join-button:focus-visible img {
   line-height: 1.66;
 }
 
+.services-apda-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 650px;
+  margin: 54px auto 0;
+  text-align: center;
+}
+
+.services-apda-block::before {
+  width: 100%;
+  height: 2px;
+  margin-bottom: 32px;
+  background: var(--rosa);
+  content: "";
+}
+
+.services-apda-block p {
+  margin: 0;
+  color: var(--negro);
+  font-size: 15px;
+  line-height: 1.66;
+}
+
+.services-apda-block p + p {
+  margin-top: 18px;
+}
+
+.services-apda-block img {
+  width: min(100%, 220px);
+  height: auto;
+  margin-top: 24px;
+  object-fit: contain;
+}
+
 .services-photo-strip {
   width: 100%;
   max-width: 100vw;
