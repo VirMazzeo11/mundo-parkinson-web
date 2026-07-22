@@ -1629,6 +1629,85 @@ a.join-button:focus-visible img {
   line-height: 1.66;
 }
 
+.services-duo-block {
+  margin-top: 58px;
+  padding: 36px 24px;
+  border-radius: 16px;
+  background: rgba(255, 171, 182, 0.15);
+}
+
+.services-duo-header {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-duo-header h2 {
+  margin: 0;
+  color: var(--violeta-header);
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-size: clamp(28px, 4vw, 36px);
+  font-weight: 600;
+  line-height: 1.18;
+}
+
+.services-duo-header p {
+  margin: 18px 0 0;
+  color: var(--negro);
+  font-size: 15px;
+  line-height: 1.66;
+}
+
+.services-duo-content {
+  display: grid;
+  gap: 32px;
+  margin-top: 34px;
+}
+
+.services-duo-copy {
+  display: grid;
+  gap: 32px;
+}
+
+.services-duo-copy ul {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-duo-copy li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--negro);
+  font-size: 15px;
+  line-height: 1.66;
+}
+
+.services-duo-copy li::before {
+  position: absolute;
+  left: 0;
+  content: "•";
+}
+
+.services-duo-copy strong,
+.services-duo-copy span {
+  display: block;
+}
+
+.services-duo-image {
+  min-height: 320px;
+}
+
+.services-duo-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .services-apda-block {
   display: flex;
   flex-direction: column;
@@ -1636,14 +1715,6 @@ a.join-button:focus-visible img {
   max-width: 650px;
   margin: 54px auto 0;
   text-align: center;
-}
-
-.services-apda-block::before {
-  width: 100%;
-  height: 2px;
-  margin-bottom: 32px;
-  background: var(--rosa);
-  content: "";
 }
 
 .services-apda-block p {
@@ -2037,13 +2108,16 @@ a.join-button:focus-visible img {
 
 @media (min-width: 700px) {
   .footer-institutions {
-    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-columns: auto auto;
+    gap: 30px;
+    justify-content: center;
     justify-items: start;
     text-align: left;
   }
 
   .footer-institutions-logos {
-    justify-self: center;
+    gap: 41px;
+    justify-self: start;
   }
 }
 
@@ -2209,6 +2283,16 @@ a.join-button:focus-visible img {
   .services-info-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 80px;
+  }
+
+  .services-duo-block {
+    padding: 44px;
+  }
+
+  .services-duo-content {
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.9fr);
+    align-items: stretch;
+    gap: 48px;
   }
 
   .services-photo-grid {
